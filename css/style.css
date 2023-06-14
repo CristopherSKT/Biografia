@@ -1,6 +1,15 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Gasoek+One&family=Inter&display=swap');
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+  background:url("/images/background.jpg");
+}
 
 .titulo{
   font-family: 'Gasoek One', sans-serif; 
@@ -22,4 +31,41 @@
 text-align: center;
 }
 
+.tituloComida{
+  text-align: center;
+  border-bottom: 2px solid black;
+  color: white;
+  padding: 10px;
+  background-color: lightsalmon;
+}
+
+.producto{
+  width: 384px;
+  margin: 20px auto;
+  padding: auto;
+}
+
+.producto img{
+  width: 20vw;
+  height: 20vh;
+  box-shadow: 10px 10px 20px whitesmoke;
+}
+
+.descripcion{
+  text-align: center;
+  font-size: 20px;
+  margin: 10px 500px;
+  border: 2px solid black;
+  box-shadow: 10px 10px 20px;
+}
+
+.descripcion h2{
+  color: aliceblue;
+  border-bottom: 5px solid black;
+  padding: 10px;
+}
+
+.descripcion p{
+  padding: 50px;
+}
 
